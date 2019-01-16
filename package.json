@@ -14,10 +14,6 @@
   },
   "scripts": {
     "start": "node app.js",
-<<<<<<< HEAD
-    "heroku-postbuild": "cd client && npm install && npm start"
-=======
     "heroku-postbuild": "cd client && npm install && npm run start"
->>>>>>> cb68c8dc4d243c7b70a33e72734bdc50860cfccb
   }
 }
