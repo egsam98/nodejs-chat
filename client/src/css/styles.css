@@ -1,0 +1,16 @@
+.flex-centered {
+    display: flex;
+    justify-content: center;
+}
+
+.match-parent {
+    width: 100%;
+}
+
+.usersOnlineStyle {
+    float: right;
+    width: 400px;
+    height: 600px;
+    border: black 2px solid;
+    padding: 20px;
+}
