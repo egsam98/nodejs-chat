@@ -4,6 +4,7 @@ import ChatInput from "./ChatInput";
 import Login from './Login';
 import UserOnline from "./UserOnline";
 import {Link} from "react-router-dom";
+import openSocket from 'socket.io-client';
 import Cookies from 'universal-cookie';
 
 function reverseString(s){
