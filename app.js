@@ -14,16 +14,11 @@ const server = http.createServer(app);
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-if (process.env.NODE_ENV === 'production') {
-    // Express will serve up production assets
-    console.log('HERE!')
-    app.use(express.static('client'));
-
-    // Express serve up index.html file if it doesn't recognize route
-    const path = require('path');
-    app.get('*', (req, res) => {
-        res.sendFile(path.resolve(__dirname, 'client', 'public', 'index.html'));
-    });
+express().use(express.static(path.join(__dirname, 'public')));
+const path = require('path');
+app.get('/', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'public', 'index.html'));
+});
 
 let clients = [];
 clients.withoutSocket = function() {
