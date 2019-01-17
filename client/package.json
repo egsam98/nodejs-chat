@@ -21,7 +21,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://nodejs-chat1998.herokuapp.com",
+  "homepage": "http://nodejs-chat1998.herokuapp.com",
   "browserslist": [
     ">0.2%",
     "not dead",
