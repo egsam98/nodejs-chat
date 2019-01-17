@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import About from './About';
 import Chat from './Chat/Chat';
 import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
+import registerServiceWorker from './serviceWorker';
 
 ReactDOM.render(
         <Router>
@@ -13,5 +14,7 @@ ReactDOM.render(
             </Switch>
         </Router>
     , document.getElementById('root'));
+registerServiceWorker();
+
 
 
