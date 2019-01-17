@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d661d78c-a2ca-4081-ab47-ef0afdad67cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/client/static.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/static.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="119" column="34" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -60,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/static.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
@@ -127,10 +127,10 @@
         <option value="$PROJECT_DIR$/client/src/About.js" />
         <option value="$PROJECT_DIR$/client/src/index.js" />
         <option value="$PROJECT_DIR$/client/src/Chat/Chat.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/client/package.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/client/static.json" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -300,7 +300,7 @@
       <workItem from="1544604327684" duration="6000000" />
       <workItem from="1544612954720" duration="88000" />
       <workItem from="1544749060903" duration="66000" />
-      <workItem from="1547673320237" duration="11439000" />
+      <workItem from="1547673320237" duration="11733000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0">
       <created>1543590708009</created>
@@ -369,7 +369,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303742000" />
+    <option name="totallyTimeSpent" value="304036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -635,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="119" column="34" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -676,6 +669,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
