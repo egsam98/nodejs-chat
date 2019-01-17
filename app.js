@@ -16,7 +16,8 @@ app.use(express.urlencoded({ extended: false }));
 
 if (process.env.NODE_ENV === 'production') {
     // Express will serve up production assets
-    app.use(express.static('client/build'));
+    console.log('HERE!')
+    app.use(express.static('client'));
 
     // Express serve up index.html file if it doesn't recognize route
     const path = require('path');
