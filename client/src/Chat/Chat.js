@@ -33,7 +33,7 @@ class Chat extends React.Component{
     }
 
     connectToRoom = (nickname) => {
-        const socket = openSocket(`http://127.0.0.1:5000?nickname=${nickname}`);
+        const socket = openSocket(`http://nodejs-chat1998.herokuapp.com?nickname=${nickname}`);
         socket.on('cookiesReceived', message => {
             this.cookies.set('id', message.data.id);
             this.cookies.set('nickname', message.data.nickname);
@@ -93,7 +93,7 @@ class Chat extends React.Component{
         let conversationId = (this.cookies.get('id') + '-' + partner.id);
         if (isReverse)
             conversationId = reverseString(conversationId);
-        const socket = openSocket(`http://127.0.0.1:5000?conversationId=${conversationId}&id=${this.cookies.get('id')}
+        const socket = openSocket(`http://nodejs-chat1998.herokuapp.com?conversationId=${conversationId}&id=${this.cookies.get('id')}
         &nickname=${this.cookies.get('nickname')}&avatar=${this.cookies.get('avatar')}`);
         console.log('PRIVATE', this.privateMessages);
         if (this.privateMessages[reverseString(conversationId)]) {
