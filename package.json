@@ -12,6 +12,7 @@
     "connect-redis": "^3.4.0",
     "session-file-store": "^1.2.0"
   },
+  "homepage": "/public/index.html",
   "scripts": {
     "start": "node app.js",
     "client": "npm start --prefix client",
