@@ -14,10 +14,10 @@ const server = http.createServer(app);
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-express().use(express.static(path.join(__dirname, 'public')));
 const path = require('path');
+app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client', 'public', 'index.html'));
+    res.sendFile(path.resolve(__dirname, 'client/public', 'index.html'));
 });
 
 let clients = [];
